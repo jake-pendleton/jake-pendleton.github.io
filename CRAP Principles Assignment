@@ -4,12 +4,12 @@
 <title>HTML Activity</title>
 </head>
 <body>
-<h1>HTML Activity: CRAP Principles Website Analysis</h1>
-<p>Excuse my mess, but this is my first ever attempt at creating an HTML webpage.</p>
-<p>For this assignment I am choosing to analyze my alma mater's <a href= "https://go.okstate.edu/">(Oklahoma State University)</a> homepage. After spending four years as an undergraduate student at this university, I can say very confidentaly that I was a frequent visitor to this site and am quite familiar with it.</p>
-<h2>Contrast</h2>
-<h3>Repetition</h3>
-<h4>Alignment</h4>
-<h5>Proximity</h5>
+  <h1>HTML Activity: CRAP Principles Website Analysis</h1>
+  <p>Excuse my mess, but this is my first ever attempt at creating an HTML webpage.</p>
+  <p>For this assignment I am choosing to analyze my alma mater's <a href= "https://go.okstate.edu/">(Oklahoma State University)</a> homepage. After spending four years as an undergraduate student at this university, I can say very confidentaly that I was a frequent visitor to this site and am quite familiar with it.</p>
+  <h2>Contrast</h2>
+  <h3>Repetition</h3>
+  <h4>Alignment</h4>
+  <h5>Proximity</h5>
 </body>
 </html>
