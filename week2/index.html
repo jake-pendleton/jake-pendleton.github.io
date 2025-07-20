@@ -1,10 +1,24 @@
-<!-- Banner container - holds all banner content -->
-<div class="banner">
-    <!-- Text content container - positions text over background -->
-    <div class="banner-text">
-        <!-- Main heading - person's name, largest text -->
-        <h1 class="banner-name">Curt Rode</h1>
-        <!-- Subtitle - role/title, smaller italicized text -->
-        <h2 class="banner-title">Educator <br>Web Developer</h2>
-    </div>
-</div>
+.banner {
+    /* Full width across container */
+    width: 100%;
+    /* Height = 70% of viewport height (responsive) */
+    height: 70vh;
+    /* Fallback color if image fails to load */
+    background-color: #4d1979;
+    /* Background image path - relative to CSS file */
+    background-image: url('../../images/60970_WebBanner_SUM25.png');
+    /* Scale image to cover entire container, may crop */
+    background-size: cover;
+    /* Center the background image */
+    background-position: center;
+    /* Don't repeat the background image */
+    background-repeat: no-repeat;
+    /* Enable flexbox for positioning control */
+    display: flex;
+    /* Center content vertically */
+    align-items: center;
+    /* Push content to the right side */
+    justify-content: flex-end;
+    /* Allow absolute positioning of child elements */
+    position: relative;
+}
