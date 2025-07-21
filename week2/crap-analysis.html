@@ -4,54 +4,62 @@
 <title>CRAP ANALYSIS</title>
 <style>
   
-  body, html {
-    margin: 0;
-    padding: 0;
-  }
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    display: flex;              
-  }
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
 
-  li {
-    flex: 1;                    
-  }
+    ul {
+      list-style-type: none;
+      background-color: #333;
+      width: 100%;
+      display: flex;
+    }
 
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    width: 100%;                
-    box-sizing: border-box;     
-  }
+    li {
+      flex: 1;
+    }
 
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
 
-  .active {
-    background-color: #4D1979;
-  }
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
 
-  
-  h1, h2, h3, h4 {
-    font-family: Arial, sans-serif;
-  }
+    .active {
+      background-color: #4D1979;
+    }
 
-  h2 {
-    text-decoration: underline;
-  }
+    h1, h2, h3 {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
 
-  p {
-    font-family: "Times New Roman", Times, serif;
-  }
+    h2, h3 {
+      text-decoration: underline;
+    }
 
+    p {
+      font-family: "Times New Roman", Times, serif;
+      margin: 10px 20px;
+    }
+
+    a {
+      color: #4D1979;
+    }
   
   .small-image {
     max-width: 100%;
