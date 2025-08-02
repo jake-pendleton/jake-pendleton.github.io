@@ -1,1 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #222;
+  padding: 1rem;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a:focus,
+button:focus {
+  outline: 3px solid #0077cc;
+  outline-offset: 2px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1rem;
+  font-weight: normal;
+  text-align: center;
+  color: #555;
+}
+
+p,
+li {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+h1,
+h3 {
+  background: #eef6fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+img::after {
+  content: attr(alt);
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+@media (min-width: 768px) {
+  body {
+    padding: 2rem 4rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  section,
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}
 
