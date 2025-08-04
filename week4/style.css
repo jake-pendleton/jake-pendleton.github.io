@@ -126,7 +126,8 @@ li {
 
 h1,
 h3 {
-  background: #eef6fa;
+  background: #D30026;
+  color: #fff; 
   padding: 1rem;
   border-radius: 8px;
 }
