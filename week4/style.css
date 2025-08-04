@@ -42,6 +42,9 @@
 
     .active {
       background-color: #f00;
+    }
+
+    .active a {
       color: #000;
     }
 
@@ -68,6 +71,10 @@ body {
 
 .nav {
   background-color: #999;
+}
+
+.nav a {
+  color: #000;
 }
 
 a:focus,
