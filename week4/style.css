@@ -99,6 +99,20 @@ img {
   margin: 1rem auto;
 }
 
+.key-point {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.icon-left {
+  width: 60px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
 h1 {
   font-size: 2rem;
   margin: 1rem 0 0.5rem;
