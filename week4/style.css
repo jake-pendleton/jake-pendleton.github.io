@@ -45,7 +45,7 @@
     }
 
     .active a {
-      color: #000;
+      color: #000 !important;
     }
 
     .banner {
